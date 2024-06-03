@@ -1,0 +1,99 @@
+nav {
+  list-style-type: none;
+    position: fixed;
+  background-color: black;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  color: white;
+  font-family: Georgia;
+  font-size: 20px;
+  text-shadow:
+    2px 2px 2px DarkRed,
+    -2px 2px 2px DarkRed,
+    -2px -2px 2px DarkRed,
+    2px -2px 2px DarkRed;
+}
+
+body {
+  background-color: IndianRed;
+   left: 0;
+  margin: 0;
+  height:100%;
+}
+
+li {
+  display: inline;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: DarkRed;
+    text-shadow:
+    1px 1px 2px white,
+    -1px 1px 2px white,
+    -1px -1px 2px white,
+    1px -1px 2px white;
+}
+
+ h1 {
+  font-family: Georgia;
+  font-size: 20px;
+  color: indianRed;
+  text-shadow:
+    1px 1px 1px darkRed,
+    -1px 1px 1px darkRed,
+    -1px -1px 1px DarkRed,
+    1px -1px 1px DarkRed;
+ font-style: bold;
+  }
+
+img {
+   border: 4px solid DarkRed;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.4);
+}
+
+ h2 {
+  font-family: Georgia;
+  font-size: 25px;
+  color: white;
+  text-shadow:
+    1px 1px 2px DarkRed,
+    -1px 1px 2px Darkred,
+    -1px -1px 2px DarkRed,
+    1px -1px 2px DarkRed;
+  }
+
+ .container{
+  display: flex;
+  padding: 10px;
+  width:700px;
+  border:2px solid DarkRed;
+}
+
+.side{
+  height: 255px;
+  flex: 10;
+  color: black;
+  background-color: transparent;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: justify;
+  overflow-y: scroll;
+}
+
+.content{
+  flex: 10;
+  height: 255px;
+  background-color: darkRed;
+  overflow-y: scroll;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: justify;
+} 
